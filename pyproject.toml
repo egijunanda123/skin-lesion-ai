@@ -2,3 +2,12 @@
 name = "skin-lesion-ai"
 version = "1.0.0"
 requires-python = "~=3.12.0"
+dependencies = [
+    "Flask",
+    "numpy",
+    "Pillow",
+    "joblib",
+    "scikit-learn",
+    "lightgbm",
+    "tensorflow==2.20.0"
+]
